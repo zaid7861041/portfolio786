@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/1c6869a630.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="zai (1).png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick ="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,I'm <span> Zaid Khan</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+<!----about---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="b2.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I am Zaid Khan, a passionate software developer skilled in Python, data structures, web development, and SQL database queries. With Python's elegance, I solve complex problems effortlessly. Data structures become my canvas, harmonizing arrays, lists, trees, and graphs for optimal performance. In web development, I am an artist, crafting immersive user experiences that blend aesthetics and functionality seamlessly. SQL empowers me to mold data into valuable insights and construct robust databases. Collaborative and humble, I create an environment where brilliance thrives. With unwavering dedication, I leave an indelible mark on the digital realm, shaping its future with innovation and creativity.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Developer</span><br>DSA uisng PYTHON</li>
+                        <li><span>Web Developer</span><br>HTML,CSS,JAVASCRIPT</li>
+                        <li><span>Database</span><br>SQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <p>
+                        while I may not have direct experience working in a company, my passion for learning, dedication to self-improvement, and enthusiasm to contribute make me a valuable asset. I am excited to embark on this journey, ready to learn, grow, and make a meaningful impact in the professional world.
+                    </p>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>10th - 82%</li>
+                        <li><span>2020</span><br>12th - 91%</li>
+                        <li><span>2024</span><br>Btech - 8.4cgpa</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------services------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Developer</h2>
+                <p>As a software developer, I bring a wealth of expertise in Python programming and a solid understanding of data structures and algorithms (DSA).My experience in DSA has equipped me with the ability to design optimized algorithms and implement data structures that enhance performance and scalability</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>As a web developer, I possess expertise in HTML, CSS, and JavaScript, the trio that powers the modern web. With a deep understanding of these technologies, I craft visually stunning and highly functional websites that captivate users and deliver exceptional user experiences.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>SQL Query</h2>
+                <p>With my knowledge in MySQL, I possess a deep understanding of database management and design. As a database developer, I create robust and efficient database systems that store, organize, and retrieve data seamlessly.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------portfolio-------->
+<div id="portfolio">
+    <div class="conatiner">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+            
+            <div class="work">
+                <img src="crypto.png" >
+                <div class="layer">
+                    <h3>Crypto Web App</h3>
+                    <p>A cryptocurrency web app created using HTML, CSS, and JavaScript is a platform designed to interact with various aspects of the cryptocurrency world. It provides users with the ability to view real-time cryptocurrency prices, manage their crypto portfolio, perform transactions, and access other relevant information.
+
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="wheather.jpg">
+                <div class="layer">
+                    <h3>Weather Web app</h3>
+                    <p>A weather web app created using HTML, CSS, and JavaScript is a platform that provides users with real-time weather information and forecasts. It allows users to search for weather conditions in different locations, view temperature, humidity, wind speed, precipitation, and other relevant data.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>Creating a Netflix-like web app using HTML, CSS, and JavaScript involves designing a platform that emulates the functionality and user experience of the popular streaming service. The web app allows users to browse and watch a collection of movies and TV shows, providing them with an immersive entertainment experience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!-- -------contact------ -->
+<div id="contact">
+    <div class="conatiner">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p ><i class="fa-solid fa-paper-plane"></i>zaidkhan786.1041@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>7011916768</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/zaid-khan-21941025b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your-Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your-Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- ----copyright----- -->
+<div class="copyright">
+    <p>Copyright © Zaid. <i class="fa-solid fa-heart"></i> Software Developer</p>
+</div>
+<!-- ------javascript----- -->
+<script>
+    var tabllinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tabllink of tabllinks){
+            tabllink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+<!-- -------githubcodeforSendingDataToGoogleSheet------- -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6OAWDrlYGkvasF5204MthgYFZKNdn6cX1_75C6vuwaXAPXyT1caPrP2Tg1ZHUGonEKA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
